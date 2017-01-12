@@ -3,6 +3,7 @@ package jp.ac.uryukyu.ie.e165714;
 /**
  * Created by yonaminehigashi on 2017/01/10.
  */
+
 public class Enemy extends LivingThing{
     //オーバライド開始
     @Override
@@ -29,8 +30,6 @@ public class Enemy extends LivingThing{
             opponent.wounded(damage);
         }
     }
-    //@Override
-
     //オーバライド終了
 
     public Enemy(String name, int hitPoint,int attack){

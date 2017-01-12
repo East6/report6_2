@@ -30,8 +30,9 @@ public class Hero extends LivingThing{
             opponent.wounded(damage);
         }
     }
+    //オーバライド終了
+
     public Hero(String name, int hitPoint,int attack){
         super(name,hitPoint,attack);
     }
-
 }
